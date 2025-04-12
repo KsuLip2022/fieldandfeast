@@ -17,6 +17,7 @@ Playfair Display*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1200px;
 }
 
 body{
@@ -26,8 +27,8 @@ body{
     background-color: #F8F4EC;
 }
 
-main, header, footer{
-    max-width: 1200px;
+main, header, footer, nav{
+    
     margin: 0 auto;
     padding: 20px;
 }
@@ -36,6 +37,69 @@ header{
     background-color: #1F2A44;
     color: #FAF9F6;
     text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 0;
+}
+
+header img{
+    max-width: 155px;
+}
+header .center{
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header h1{
+    font-size: 3.2rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-style: italic;
+    color: #FAF9F6;
+    margin-bottom: 0;
+}
+
+nav{
+    max-width: 1200px;
+    width: 100%;
+    background-color: #E5C185;
+    margin-top: 0;
+    padding: 40px 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;     
+    gap: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1F2A44;
+}
+
+nav ul li{
+    display: inline;
+}
+
+section{
+    padding: 40px 20px;
+
+}
+
+h2{
+    color: #1F2A44;
+    margin-bottom: 20px;
+}
+
+p{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
@@ -44,3 +108,25 @@ header{
 
 
 
+
+
+
+
+
+footer{
+    background-color: #1F2A44;
+    
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 0;
+}
+
+footer address{
+    color: #FAF9F6;
+    font-style: normal;
+}
+ footer a{
+    color: #E5C185;
+    text-decoration: none;
+    
+ }
