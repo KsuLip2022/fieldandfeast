@@ -126,6 +126,14 @@ h2{
 #thefield ul{
     padding-left: 19px;
 }
+
+#galery{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
 #gallery img{
     /*width: 100%;*/
     height: auto;
@@ -143,16 +151,18 @@ h2{
     display: inline-block;
     position: relative;
 }
- #gallery img ::after{
+/* #gallery img ::after{
     display: block;
     text-align: center;
     font-style: italic;
     color:#2B2B2B;
- }
+ }*/
 
  .tomatoes .olives .basket .chef .table{
     max-width: 100%;
     margin: 0 auto;
+    padding: 10px;
+    text-align: center;
  }
 
  figcaption{
@@ -201,14 +211,24 @@ footer address{
     padding-top: 40px;
     
  }
- @media (min-width: 600px) {
-
+ @media (max-width: 600px) {
+    .tomatoes .olives .basket .chef .table{
+     max-width: 300px;
+     padding: 5px;
+ }
  }
 
- @media (min-width: 900px) {
-    
+ @media (max-width: 900px) {
+    .tomatoes .olives .basket .chef .table{ 
+     max-width: 300px;
+     padding: 10px;
+ }
  }
 
- @media (min-width: 1200px) {
-    
+ @media (max-width: 1200px) {
+    .tomatoes .olives .basket .chef .table{
+     max-width: 200px;
+     padding: 5px;
+
+    }    
  }
