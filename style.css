@@ -123,12 +123,65 @@ h2{
     padding: 15px;
 }
 
+#thefield ul{
+    padding-left: 19px;
+}
+#gallery img{
+    /*width: 100%;*/
+    height: auto;
+    border-radius: 8px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+    border: none;
+    background: #F8F4EC;
+    box-shadow: 1px 5px 10px #2B2B2B;
+    padding-bottom: 40px;
+    padding-top: 0;
+    padding-inline: 0;
+    display: inline-block;
+    position: relative;
+}
+ #gallery img ::after{
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color:#2B2B2B;
+ }
+
+ .tomatoes .olives .basket .chef .table{
+    max-width: 100%;
+    margin: 0 auto;
+ }
+
+ figcaption{
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+ }
+
+/*.tomatoes::after {
+    content: "Heirloom tomatoes at peak ripeness";
+    display: block;
+    text-align: center;
+    color: #2B2B2B;
+    font-size: 1rem;
+    margin-top: 0.5em;}*/
 
 
-
-
-
-
+button{
+    margin-top: 20px;
+    color: #FAF9F6;
+    border-radius: 5px;
+    background-color: #76885B;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: none;
+    font-family: 'Playfair Display';
+    border: none;
+}
 
 footer{
     background-color: #1F2A44;
@@ -145,5 +198,17 @@ footer address{
  footer a{
     color: #E5C185;
     text-decoration: none;
+    padding-top: 40px;
+    
+ }
+ @media (min-width: 600px) {
+
+ }
+
+ @media (min-width: 900px) {
+    
+ }
+
+ @media (min-width: 1200px) {
     
  }
