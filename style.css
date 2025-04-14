@@ -25,8 +25,9 @@ body{
     line-height: 1.6;
     color: #2B2B2B;
     background-color: #F8F4EC;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: 0 auto;
+    
 }
 
 main, header, footer, nav{
@@ -41,6 +42,7 @@ header{
     text-align: center;
     padding: 20px 20px;
     margin-bottom: 0;
+    width: 100%;
 }
 
 header img{
@@ -64,7 +66,6 @@ header p{
 }
 
 nav{
-    max-width: 1200px;
     width: 100%;
     background-color: #E5C185;
     margin-top: 0;
@@ -244,19 +245,21 @@ footer address{
 
  @media all and (min-width: 900px) {
     body{
-        max-width: 900px;
+        max-width: 100%;
     }
     .group{
-        max-width: 750px;
+        max-width: 900px;
         margin: 0 auto;
     }
-    picture{ 
-        max-width: 300px;
+    figure{ 
+        max-width: 100%;
         padding: 10px;
-        grid-template-columns: repeat(3, 1fr);
+        display: inline-block;
+        grid-template-columns: repeat(3, 300px);
+        gap: 15px;
     }
     ul{
-        gap: 280px;
+        gap: 350px;
     }
 
     #offerings{
