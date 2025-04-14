@@ -235,7 +235,7 @@ footer address{
         width: 100%;
     }
     picture{
-        width: 300px;
+        width: 600px;
         padding: 5px;
     }
     
@@ -272,13 +272,11 @@ footer address{
         grid-template-columns: repeat(3, 300px);
         gap: 15px;
     }
+
     ul{
         gap: 350px;
     }
-
-    #offerings{
-       
-    }
+    
     #gallery{
         grid-template-columns: repeat(3, 300px);
     }
