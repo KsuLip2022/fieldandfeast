@@ -17,7 +17,6 @@ Playfair Display*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   /* max-width: 1200px;*/
 }
 
 body{
@@ -25,7 +24,6 @@ body{
     line-height: 1.6;
     color: #2B2B2B;
     background-color: #F8F4EC;
-    /*max-width: 1200px;*/
     margin: 0 auto;
     
 }
@@ -139,14 +137,23 @@ h2{
 }
 
 #galery{
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: 0 auto;
     padding: 20px;
 }
 
+figure{
+    margin: 0;
+    background-color: #F8F4EC;
+    border: 10px solid #F8F4EC;
+    border-radius: 10px;
+    font-display: inline-block;
+    text-align: center;
+}
 
-#gallery img{
-    /*width: 100%;*/
+figure img{
+    width: 100%;
+    max-width: 300px;
     height: auto;
     border-radius: 8px;
     margin: 10px;
@@ -162,19 +169,20 @@ h2{
     display: inline-block;
     position: relative;
 }
-/* #gallery img ::after{
-    display: block;
-    text-align: center;
-    font-style: italic;
-    color:#2B2B2B;
- }*/
+ figure fifcaption{
+    padding: 10px;
+    color: #2B2B2B;
+    background-color: #F8F4EC;
 
+ }
  .tomatoes .olives .basket .chef .table{
     max-width: 100%;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
  }
+
+
 
  figcaption{
     font-style: italic;
@@ -223,11 +231,13 @@ footer address{
     
  }
  @media all and (max-width: 600px) {
-
+    header{
+        width: 100%;
+    }
     picture{
-        max-width: 300px;
+        width: 300px;
         padding: 5px;
- }
+    }
     
     .divid{
         width: 100%;
@@ -267,10 +277,10 @@ footer address{
     }
 
     #offerings{
-        grid-template-columns: repeat(2, 1fr);
+       
     }
     #gallery{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 300px);
     }
     #artisan{
         grid-column: 1;
