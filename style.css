@@ -237,7 +237,12 @@ footer address{
     }
     ul{
         gap: 60px;
-    }    
+    } 
+    
+    .group{
+        max-width: 600px;
+        margin: 0 auto;
+    }
  }
 
  
@@ -291,6 +296,13 @@ footer address{
  }
 
  @media all and (min-width: 1200px) {
+    body{
+        max-width: 100%;
+    }
+    .group{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
     picture{
         max-width: 200px;
         padding: 5px;
