@@ -136,8 +136,8 @@ h2{
     padding-left: 19px;
 }
 
-#galery{
-    margin: 0 auto;
+#gallery{
+ 
     
 }
 
@@ -269,7 +269,10 @@ footer address{
     ul{
         gap: 350px;
     }
-    
+    #offerings{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    } 
     #gallery{
         grid-template-columns: repeat(3, 300px);
     }
