@@ -253,7 +253,7 @@ footer address{
     }
     .group{
         max-width: 930px;
-        margin: 0 auto;
+        
     }
 
     figure picture img{ 
@@ -269,11 +269,14 @@ footer address{
         display: flex;
         flex-direction: row;
         box-sizing: border-box;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: stretch;
         gap: 10px;
         flex: 1 1 300px;
         margin: 0;
+    }
+    #photo>*{
+        box-sizing: border-box;
     }
     ul{
         gap: 350px;
