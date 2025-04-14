@@ -227,8 +227,7 @@ footer address{
         max-width: 600px;
         padding: 5px;
  }
-    #offerings{
-        grid-template-columns: repeat(2, 1fr);
+    
 }
     .divid{
         width: 100%;
