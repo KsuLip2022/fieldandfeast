@@ -221,6 +221,7 @@ footer address{
         padding: 0;
     }
     #photo{
+        margin-top: 20px;
         gap: 20px;
     }
     .divid{
