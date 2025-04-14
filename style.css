@@ -264,10 +264,9 @@ footer address{
         gap: 15px;
     }
     #photo{
-        width: 300px;
+        width: 100%;
         justify-content: flex-start;
         display: flex;
-        flex-direction: row;
         box-sizing: border-box;
         flex-wrap: wrap;
         align-items: stretch;
