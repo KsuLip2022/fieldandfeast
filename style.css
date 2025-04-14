@@ -166,7 +166,7 @@ figure picture img{
     
 }
  
-.tomatoes .olives .basket .chef .table{
+.tomatoes, .olives, .basket, .chef, .table{
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -262,7 +262,7 @@ footer address{
         max-width: 100%;
         padding: 0;
         display: inline-block;
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(3, 1fr);
         gap: 15px;
     }
 
@@ -274,7 +274,7 @@ footer address{
         gap: 30px;
     } 
     #gallery{
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(3, 1fr);
     }
     #artisan{
         grid-column: 1;
@@ -308,11 +308,11 @@ footer address{
     picture{
         max-width: 200px;
         padding: 0;
-        grid-template-columns: repeat(5, 200px);
+        grid-template-columns: repeat(5, 1fr);
     }  
 
     #gallery{
-        grid-template-columns: repeat(5, 200px);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     #offerings{
