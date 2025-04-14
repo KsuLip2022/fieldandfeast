@@ -276,6 +276,7 @@ footer address{
         gap: 30px;
     } 
     #gallery{
+        
         grid-template-columns: repeat(3, 1fr);
        gap: 20px;
     }
@@ -308,22 +309,23 @@ footer address{
         margin: 0 auto;
     }
     #photo{
-        width: 200px;
+        width: 100%;
         justify-content: flex-start;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         box-sizing: border-box;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: stretch;
         gap: 20px;
         margin: 0;
         grid-template-columns: repeat(5, 200px);
+        margin-top: 25px;
     }
 
     
     picture{
-        max-width: 100%;
+        width: 200px;
         padding: 0;
         grid-template-columns: repeat(5, 200px);
         margin: 0 auto;
@@ -331,6 +333,7 @@ footer address{
 
 
     #gallery{
+        width: 100%;
         grid-template-columns: repeat(5, 1fr);
     }
 
