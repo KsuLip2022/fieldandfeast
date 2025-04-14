@@ -221,7 +221,7 @@ footer address{
     padding-top: 40px;
     
  }
- @media all and (min-width: 600px) {
+ @media all and (max-width: 600px) {
     picture{
         max-width: 600px;
         padding: 5px;
@@ -234,6 +234,9 @@ footer address{
         height: 3px;
         background: #E5C185;
         margin: 0;    
+    }
+    ul{
+        gap: 60px;
     }    
 } 
 
