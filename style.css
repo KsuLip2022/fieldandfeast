@@ -230,14 +230,13 @@ footer address{
     #offerings{
         grid-template-columns: repeat(2, 1fr);
 }
-    .divid{  
+    .divid{
         width: 100%;
         height: 3px;
         background: #E5C185;
-        margin: 0;
-        
-    }
-}
+        margin: 0;    
+    }    
+} 
 
  
 
