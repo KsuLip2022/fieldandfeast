@@ -249,7 +249,7 @@ footer address{
         max-width: 100%;
     }
     .group{
-        max-width: 900px;
+        max-width: 930px;
         margin: 0 auto;
     }
 
@@ -265,9 +265,9 @@ footer address{
         justify-content: flex-start;
         display: flex;
         box-sizing: border-box;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: stretch;
-        gap: 20px;
+        gap: 10px;
         flex: 1 1 300px;
         margin: 0;
     }
