@@ -247,7 +247,7 @@ footer address{
 
  
 
- @media all and (max-width: 900px) {
+ @media all and (min-width: 900px) {
     body{
         max-width: 100%;
     }
