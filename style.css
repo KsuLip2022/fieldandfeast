@@ -263,7 +263,7 @@ footer address{
         grid-template-columns: repeat(3, 1fr);
         gap: 15px;
     }
-    #photo{
+    /*#photo{
         width: 100%;
         justify-content: flex-start;
         display: flex;
@@ -281,7 +281,7 @@ footer address{
     #photo > *:nth-child(n+4){
         width: calc((100% - 10px)/2);
         box-sizing: border-box;
-    }
+    } */
     ul{
         gap: 350px;
     }
