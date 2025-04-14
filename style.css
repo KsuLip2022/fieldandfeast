@@ -100,11 +100,20 @@ h2{
     
 }
 
+#offerings{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
 #artisan{
     background-color: #76885B;
     color:#FAF9F6;
     border-radius: 15px; 
     padding: 15px;
+    margin-top: 15px;
 }
 
 #exclusive{
@@ -119,7 +128,7 @@ h2{
     background-color: #76885B;
     color:#FAF9F6;
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 15px;
 }
 
@@ -211,24 +220,70 @@ footer address{
     padding-top: 40px;
     
  }
- @media (max-width: 600px) {
+ @media all and (min-width: 600px) {
     .tomatoes .olives .basket .chef .table{
-     max-width: 300px;
-     padding: 5px;
+        max-width: 600px;
+        padding: 5px;
  }
+    #offerings{
+    grid-template-columns: repeat(2, 1fr);
+}
+
  }
 
- @media (max-width: 900px) {
+ @media all and (min-width: 900px) {
+    body{
+        max-width: 900px;
+    }
     .tomatoes .olives .basket .chef .table{ 
-     max-width: 300px;
-     padding: 10px;
+        max-width: 300px;
+        padding: 10px;
  }
+    #offerings{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #gallery{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #artisan{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #exclusive{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #thefield{
+        grid-column: 1/-1;
+        grid-row: 3;
+    }
  }
 
- @media (max-width: 1200px) {
+ @media all and (min-width: 1200px) {
     .tomatoes .olives .basket .chef .table{
-     max-width: 200px;
-     padding: 5px;
+        max-width: 200px;
+        padding: 5px;
 
-    }    
+    }  
+    #offerings{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }  
+    #gallery{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    #artisan{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #exclusive{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #thefield{
+        grid-column: 1/-1;
+        grid-row: 3;
+    }
  }
